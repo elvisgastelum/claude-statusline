@@ -1,5 +1,14 @@
 # claude-statusline
 
+> **Moved to [agent-config](https://github.com/elvisgastelum/agent-config#statusline).** The status line is now the `statusline` catalog item there, which tracks what it installs and restores your previous status line on uninstall:
+>
+> ```bash
+> curl -fsSL https://raw.githubusercontent.com/elvisgastelum/agent-config/main/install.sh | bash
+> agi install statusline
+> ```
+>
+> agent-config writes the same `~/.claude/statusline.sh`, so a copy installed from this repo is taken over in place. This repository stays available, but new changes land in agent-config.
+
 A compact [Claude Code](https://claude.com/claude-code) status line, styled after zap-prompt.
 
 ```
